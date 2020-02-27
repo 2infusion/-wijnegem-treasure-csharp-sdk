@@ -32,7 +32,6 @@ namespace Example
         public void main()
         {
 
-
             var apiInstance = new GameApi();
             var body = new UserInfo(); // UserInfo | 
 
@@ -70,7 +69,6 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 <a name="gamecontrollerleaderboardtotal"></a>
 # **GameControllerLeaderBoardTotal**
 > Coupon GameControllerLeaderBoardTotal ()
@@ -91,7 +89,6 @@ namespace Example
     {
         public void main()
         {
-
 
             var apiInstance = new GameApi();
 
@@ -126,7 +123,6 @@ This endpoint does not need any parameter.
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 <a name="map"></a>
 # **Map**
 > Dictionary Map ()
@@ -147,7 +143,6 @@ namespace Example
     {
         public void main()
         {
-
 
             var apiInstance = new GameApi();
 
@@ -182,7 +177,6 @@ This endpoint does not need any parameter.
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 <a name="mycoupons"></a>
 # **MyCoupons**
 > List<Coupon> MyCoupons ()
@@ -203,7 +197,6 @@ namespace Example
     {
         public void main()
         {
-
 
             var apiInstance = new GameApi();
 
@@ -238,7 +231,6 @@ This endpoint does not need any parameter.
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 <a name="unlocktreasurebyid"></a>
 # **UnlockTreasureById**
 > OpenTreasure UnlockTreasureById (UnlockTreasure body)
@@ -259,7 +251,6 @@ namespace Example
     {
         public void main()
         {
-
 
             var apiInstance = new GameApi();
             var body = new UnlockTreasure(); // UnlockTreasure | 
@@ -298,7 +289,6 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 <a name="validatecouponbyid"></a>
 # **ValidateCouponById**
 > Coupon ValidateCouponById (UnlockTreasure body)
@@ -319,7 +309,6 @@ namespace Example
     {
         public void main()
         {
-
 
             var apiInstance = new GameApi();
             var body = new UnlockTreasure(); // UnlockTreasure | 
@@ -358,4 +347,3 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-

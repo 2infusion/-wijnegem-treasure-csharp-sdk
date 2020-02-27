@@ -33,7 +33,6 @@ namespace Example
         public void main()
         {
 
-
             var apiInstance = new TreasureApi();
             var body = new CreateManyTreasureDto(); // CreateManyTreasureDto | 
 
@@ -72,7 +71,6 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 <a name="treasurecontrollercreateonebase"></a>
 # **TreasureControllerCreateOneBase**
 > Treasure TreasureControllerCreateOneBase (Treasure body)
@@ -93,7 +91,6 @@ namespace Example
     {
         public void main()
         {
-
 
             var apiInstance = new TreasureApi();
             var body = new Treasure(); // Treasure | 
@@ -133,7 +130,6 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 <a name="treasurecontrollerdeleteonebase"></a>
 # **TreasureControllerDeleteOneBase**
 > void TreasureControllerDeleteOneBase (string id)
@@ -154,7 +150,6 @@ namespace Example
     {
         public void main()
         {
-
 
             var apiInstance = new TreasureApi();
             var id = id_example;  // string | 
@@ -193,10 +188,9 @@ void (empty response body)
  - **Accept**: Not defined
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 <a name="treasurecontrollergetmanybase"></a>
 # **TreasureControllerGetManyBase**
-> InlineResponse2003 TreasureControllerGetManyBase (List<string> fields, string s, List<string> filter, List<string> or, List<string> sort, List<string> join, int? limit, int? offset, int? page, int? cache)
+> InlineResponse2003 TreasureControllerGetManyBase (List<string> fields = null, string s = null, List<string> filter = null, List<string> or = null, List<string> sort = null, List<string> join = null, int? limit = null, int? offset = null, int? page = null, int? cache = null)
 
 Retrieve many Treasure
 
@@ -214,7 +208,6 @@ namespace Example
     {
         public void main()
         {
-
 
             var apiInstance = new TreasureApi();
             var fields = new List<string>(); // List<string> | Selects resource fields. <a href=\"https://github.com/nestjsx/crud/wiki/Requests#select\" target=\"_blank\">Docs</a> (optional) 
@@ -247,12 +240,12 @@ namespace Example
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **fields** | [**List<string>**](string.md)| Selects resource fields. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#select\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
+ **fields** | [**List&lt;string&gt;**](string.md)| Selects resource fields. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#select\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
  **s** | **string**| Adds search condition. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#search\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
- **filter** | [**List<string>**](string.md)| Adds filter condition. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#filter\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
- **or** | [**List<string>**](string.md)| Adds OR condition. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#or\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
- **sort** | [**List<string>**](string.md)| Adds sort by field. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#sort\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
- **join** | [**List<string>**](string.md)| Adds relational resources. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#join\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
+ **filter** | [**List&lt;string&gt;**](string.md)| Adds filter condition. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#filter\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
+ **or** | [**List&lt;string&gt;**](string.md)| Adds OR condition. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#or\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
+ **sort** | [**List&lt;string&gt;**](string.md)| Adds sort by field. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#sort\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
+ **join** | [**List&lt;string&gt;**](string.md)| Adds relational resources. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#join\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
  **limit** | **int?**| Limit amount of resources. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#limit\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
  **offset** | **int?**| Offset amount of resources. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#offset\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
  **page** | **int?**| Page portion of resources. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#page\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
@@ -272,10 +265,9 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 <a name="treasurecontrollergetonebase"></a>
 # **TreasureControllerGetOneBase**
-> Treasure TreasureControllerGetOneBase (string id, List<string> fields, List<string> join, int? cache)
+> Treasure TreasureControllerGetOneBase (string id, List<string> fields = null, List<string> join = null, int? cache = null)
 
 Retrieve one Treasure
 
@@ -293,7 +285,6 @@ namespace Example
     {
         public void main()
         {
-
 
             var apiInstance = new TreasureApi();
             var id = id_example;  // string | 
@@ -321,8 +312,8 @@ namespace Example
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  | 
- **fields** | [**List<string>**](string.md)| Selects resource fields. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#select\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
- **join** | [**List<string>**](string.md)| Adds relational resources. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#join\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
+ **fields** | [**List&lt;string&gt;**](string.md)| Selects resource fields. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#select\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
+ **join** | [**List&lt;string&gt;**](string.md)| Adds relational resources. &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#join\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
  **cache** | **int?**| Reset cache (if was enabled). &lt;a href&#x3D;\&quot;https://github.com/nestjsx/crud/wiki/Requests#cache\&quot; target&#x3D;\&quot;_blank\&quot;&gt;Docs&lt;/a&gt; | [optional] 
 
 ### Return type
@@ -339,7 +330,6 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 <a name="treasurecontrollerreplaceonebase"></a>
 # **TreasureControllerReplaceOneBase**
 > Treasure TreasureControllerReplaceOneBase (Treasure body, string id)
@@ -360,7 +350,6 @@ namespace Example
     {
         public void main()
         {
-
 
             var apiInstance = new TreasureApi();
             var body = new Treasure(); // Treasure | 
@@ -402,7 +391,6 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
 <a name="treasurecontrollerupdateonebase"></a>
 # **TreasureControllerUpdateOneBase**
 > Treasure TreasureControllerUpdateOneBase (Treasure body, string id)
@@ -423,7 +411,6 @@ namespace Example
     {
         public void main()
         {
-
 
             var apiInstance = new TreasureApi();
             var body = new Treasure(); // Treasure | 
@@ -465,4 +452,3 @@ Name | Type | Description  | Notes
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
